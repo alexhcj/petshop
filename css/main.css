@@ -1,0 +1,65 @@
+/* nav start */
+.nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    padding: 15px 30px;
+    height: 60px;
+    background-color: #fff;
+}
+.nav-top,
+.nav-bottom {
+    display: flex;
+}
+.logo {
+    width: 92px;
+    height: 60px;
+}
+.gift {
+    background: url('../img/gift.svg') no-repeat 50% 50%;
+    background-size: contain;
+    padding: 20px;
+}
+.phone {
+    background: url('../img/phone.svg') no-repeat 50% 50%;
+    background-size: contain;
+    padding: 20px;
+}
+.truck {
+    background: url('../img/truck.svg') no-repeat 50% 50%;
+    background-size: contain;
+    padding: 20px;
+}
+.nav-navbar {
+    display: flex;
+    margin-left: auto;
+}
+.nav-icons {
+    display: flex;
+    margin-right: 200px;
+}
+.nav-icons__item {
+    display: flex;
+}
+.user {
+    background: url('../img/user.svg') no-repeat 50% 50%;
+    background-size: contain;
+    padding: 20px;
+}
+.cart {
+    background: url('../img/cart.svg') no-repeat 50% 50%;
+    background-size: contain;
+    padding: 20px;
+}
+.nav-search {
+    margin-right: 150px;
+}
+.nav-user {
+    padding: 0 10px;
+}
+.nav-cart {
+    padding: 0 10px;
+}
+/* nav end */
